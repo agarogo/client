@@ -8,7 +8,7 @@ export default function Test() {
   const questions = [
     {
       id: 1,
-      question: "I'm _____ dinner for my mum tonight.",
+      question: "1) I'm _____ dinner for my mum tonight.",
       options: [
         "am making",
         "making",
@@ -18,7 +18,7 @@ export default function Test() {
     },
     {
       id: 2,
-      question: "Raushan _____ her office at 8 o'clock this evening.",
+      question: "2) Raushan _____ her office at 8 o'clock this evening.",
       options: [
         "leaves",
         "did leave",
@@ -28,7 +28,7 @@ export default function Test() {
     },
     {
       id: 3,
-      question: "How much _____ your trousers?",
+      question: "3) How much _____ your trousers?",
       options: [
         "were",
         "was",
@@ -38,7 +38,7 @@ export default function Test() {
     },
     {
       id: 4,
-      question: "Symbat _____ swimming tomorrow.",
+      question: "4) Symbat _____ swimming tomorrow.",
       options: [
         "is going",
         "isn't to go",
@@ -48,7 +48,7 @@ export default function Test() {
     },
     {
       id: 5,
-      question: "Madina _____ anything at the shops.",
+      question: "5) Madina _____ anything at the shops.",
       options: [
         "didn't bought",
         "bought",
@@ -58,7 +58,7 @@ export default function Test() {
     },
     {
       id: 6,
-      question: "_____ you late for work today?",
+      question: "6) _____ you late for work today?",
       options: [
         "Is",
         "Were",
@@ -68,7 +68,7 @@ export default function Test() {
     },
     {
       id: 7,
-      question: "Zhanel _____ me an email yesterday.",
+      question: "7) Zhanel _____ me an email yesterday.",
       options: [
         "didn't sent",
         "didn't send",
@@ -78,7 +78,7 @@ export default function Test() {
     },
     {
       id: 8,
-      question: "When _____ you visit the new school?",
+      question: "8) When _____ you visit the new school?",
       options: [
         "did",
         "had",
@@ -88,7 +88,7 @@ export default function Test() {
     },
     {
       id: 9,
-      question: "Where _____ ?",
+      question: "9) Where _____ ?",
       options: [
         "did stop the bus",
         "did the bus stop",
@@ -98,7 +98,7 @@ export default function Test() {
     },
     {
       id: 10,
-      question: "Kairat and Serik _____ their new jeans tonight.",
+      question: "10) Kairat and Serik _____ their new jeans tonight.",
       options: [
         "are wearing",
         "are wear",
@@ -106,6 +106,207 @@ export default function Test() {
       ],
       correctAnswer: "are wearing",
     },
+    {
+      id: 11,
+      question: "11) I _____ a really good time at the party.",
+      options: [
+        "have",
+        "was have",
+        "had",
+      ],
+      correctAnswer: "had",
+    },
+    {
+      id: 12,
+      question: "12) Adina _____ tennis on Wednesday.",
+      options: [
+        "is play",
+        "is playing",
+        "are playing",
+      ],
+      correctAnswer: "is playing",
+    },
+    {
+      id: 13,
+      question: "13) _____ speak Kazakh?",
+      options: [
+        "Can he",
+        "He can",
+        "Is he",
+      ],
+      correctAnswer: "Can he",
+    },
+    {
+      id: 14,
+      question: "14) What _____ tonight?",
+      options: [
+        "do they do",
+        "are they doing",
+        "they are doing",
+      ],
+      correctAnswer: "are they doing",
+    },
+    {
+      id: 15,
+      question: "15) Berik _____ to the station to meet his friends.",
+      options: [
+        "went",
+        "did go",
+        "did went",
+      ],
+      correctAnswer: "went",
+    },
+    {
+      id: 16,
+      question: "16) _____ Nazym buy a phone yesterday?",
+      options: [
+        "Was",
+        "Did",
+        "Can",
+      ],
+      correctAnswer: "Did",
+    },
+    {
+      id: 17,
+      question: "17) What _____ to the computer?",
+      options: [
+        "happened",
+        "did happen",
+        "is happen",
+      ],
+      correctAnswer: "happened",
+    },
+    {
+      id: 18,
+      question: "18) We _____ the food at that new restaurant last night.",
+      options: [
+        "didn't liked",
+        "didn't like",
+        "wasn't like",
+      ],
+      correctAnswer: "didn't like",
+    },
+    {
+      id: 19,
+      question: "19) Sultan's _____ at a hotel near the beach.",
+      options: [
+        "staying",
+        "stay",
+        "to stay",
+      ],
+      correctAnswer: "staying",
+    },
+    {
+      id: 20,
+      question: "20) What time _____ in Astana?",
+      options: [
+        "we arriving",
+        "we are arriving",
+        "are we arriving",
+      ],
+      correctAnswer: "are we arriving",
+    },
+    {
+      id: 21,
+      question: "21) Where _____ Anuar from? He's from Almaty.",
+      options: [
+        "are",
+        "is",
+        "do",
+      ],
+      correctAnswer: "is",
+    },
+    {
+      id: 22,
+      question: "22) I want _____ rice with my chicken, please. No problem!",
+      options: [
+        "some",
+        "any",
+        "a",
+      ],
+      correctAnswer: "some",
+    },
+    {
+      id: 23,
+      question: "23)  ______ Nurlan on holiday last week?",
+      options: [
+        "Were",
+        "Is",
+        "Was",
+      ],
+      correctAnswer: "Was",
+    },
+    {
+      id: 24,
+      question: "24) Do you like my new jeans? I bought _____ this morning.",
+      options: [
+        "it",
+        "them",
+        "they",
+      ],
+      correctAnswer: "them",
+    },
+    {
+      id: 25,
+      question: "25)  _____ Madina and Serik speak Russian?",
+      options: [
+        "Does",
+        "Do",
+        "Are",
+      ],
+      correctAnswer: "Do",
+    },
+    {
+      id: 26,
+      question: "26) This is my husband's sister. _____ name's Saule.",
+      options: [
+        "Her",
+        "His",
+        "She's",
+      ],
+      correctAnswer: "Her",
+    },
+    {
+      id: 27,
+      question: "27)  _____ any people in the shop now.",
+      options: [
+        "There's",
+        "There aren't ",
+        "There are",
+      ],
+      correctAnswer: "There aren't ",
+    },
+    {
+      id: 28,
+      question: "28) I'm sorry, but you _____ park here.",
+      options: [
+        "can't",
+        "are",
+        "can",
+      ],
+      correctAnswer: "can't",
+    },
+    {
+      id: 29,
+      question: "29) Did you see Altynshash this morning? Yes, I sat next to _____ on the bus.",
+      options: [
+        "she",
+        "me",
+        "her",
+      ],
+      correctAnswer: "her",
+    },
+    {
+      id: 30,
+      question: "30) Adil and Marat _____ at work yesterday.",
+      options: [
+        "weren't",
+        "aren't",
+        "wasn't",
+      ],
+      correctAnswer: "weren't",
+    },
+
   ];
 
   const handleAnswerChange = (questionId: number, answer: string) => {
