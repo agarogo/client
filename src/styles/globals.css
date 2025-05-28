@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+body {
+  background-color: #F8F8F8;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.mon {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@media (max-width: 640px) {
+  .mon {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px !important;
+  }
+}
+
+.res {
+  background-image: url(image.png);
+  background-size: cover;
+}
