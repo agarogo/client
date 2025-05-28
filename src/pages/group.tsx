@@ -15,8 +15,12 @@ export default function Group() {
         <div className="bg-[#F9E35D] text-[#0A1044] p-4 rounded-[20px]">
           Я очень рада, что попала в группу Б-Т-24 и учусь под руководством Яны Константиновны, благодаря своей группе и своему куратору у меня остались незабываемые воспоминания и впечатления. Они сделали мою студенческую жизнь лучше.
         </div>
-
+        <div className="flex">
+          <div className="res3 h-[20vh] rounded-[20px] w-[24%] sm:h-[30vh] md:h-[40vh]"></div>
+          <div className="res2 h-[20vh] rounded-[20px] w-[74%] ml-auto sm:h-[30vh] md:h-[40vh]"></div>
+        </div>
       </div>
+
     </section>
   );
 }

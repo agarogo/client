@@ -8,31 +8,103 @@ export default function Test() {
   const questions = [
     {
       id: 1,
-      question: "Что такое HTML?",
+      question: "I'm _____ dinner for my mum tonight.",
       options: [
-        "Язык программирования",
-        "Язык разметки для создания веб-страниц",
-        "Система управления базами данных",
-        "Графический редактор",
+        "am making",
+        "making",
+        "make",
       ],
-      correctAnswer: "Язык разметки для создания веб-страниц",
+      correctAnswer: "making",
     },
     {
       id: 2,
-      question: "Какой тег используется для заголовка первого уровня?",
-      options: ["&lt;p&gt;", "&lt;h1&gt;", "&lt;div&gt;", "&lt;span&gt;"],
-      correctAnswer: "&lt;h1&gt;",
+      question: "Raushan _____ her office at 8 o'clock this evening.",
+      options: [
+        "leaves",
+        "did leave",
+        "left",
+      ],
+      correctAnswer: "left",
     },
     {
       id: 3,
-      question: "Что делает тег &lt;br&gt;?",
+      question: "How much _____ your trousers?",
       options: [
-        "Создаёт таблицу",
-        "Добавляет разрыв строки",
-        "Вставляет изображение",
-        "Определяет параграф",
+        "were",
+        "was",
+        "is",
       ],
-      correctAnswer: "Добавляет разрыв строки",
+      correctAnswer: "were",
+    },
+    {
+      id: 4,
+      question: "Symbat _____ swimming tomorrow.",
+      options: [
+        "is going",
+        "isn't to go",
+        "going isn't",
+      ],
+      correctAnswer: "is going",
+    },
+    {
+      id: 5,
+      question: "Madina _____ anything at the shops.",
+      options: [
+        "didn't bought",
+        "bought",
+        "didn't buy",
+      ],
+      correctAnswer: "didn't buy",
+    },
+    {
+      id: 6,
+      question: "_____ you late for work today?",
+      options: [
+        "Is",
+        "Were",
+        "Was",
+      ],
+      correctAnswer: "Were",
+    },
+    {
+      id: 7,
+      question: "Zhanel _____ me an email yesterday.",
+      options: [
+        "didn't sent",
+        "didn't send",
+        "wasn't send",
+      ],
+      correctAnswer: "didn't send",
+    },
+    {
+      id: 8,
+      question: "When _____ you visit the new school?",
+      options: [
+        "did",
+        "had",
+        "went",
+      ],
+      correctAnswer: "did",
+    },
+    {
+      id: 9,
+      question: "Where _____ ?",
+      options: [
+        "did stop the bus",
+        "did the bus stop",
+        "did stopped the bus",
+      ],
+      correctAnswer: "did the bus stop",
+    },
+    {
+      id: 10,
+      question: "Kairat and Serik _____ their new jeans tonight.",
+      options: [
+        "are wearing",
+        "are wear",
+        "aren't wear",
+      ],
+      correctAnswer: "are wearing",
     },
   ];
 
@@ -54,10 +126,10 @@ export default function Test() {
     <>
       <Head>
         <title>Тест по HTML</title>
-        <meta name="description" content="Пройдите тест по основам HTML" />
+        <meta name="description" content="Пройдите тест по Английскому языку" />
       </Head>
       <section className="mt-8 bg-white w-[90%] mx-auto py-10 rounded-[32px]">
-        <h2 className="text-4xl text-center mb-6 mon">Тест по HTML</h2>
+        <h2 className="text-4xl text-center mb-6 mon">Тест по Английскому языку</h2>
         <div className="space-y-6 max-w-4xl mx-auto">
           {questions.map((q) => (
             <div key={q.id} className="bg-[#86F37D] text-[#0A1044] p-4 rounded-[20px]">
