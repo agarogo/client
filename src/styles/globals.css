@@ -25,7 +25,10 @@ body {
   }
 }
 
+
 .res {
   background-image: url(image.png);
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }

@@ -52,13 +52,13 @@ const Header: React.FC = () => {
         </button>
       </div>
       {isMenuOpen && (
-        <div className="lg:hidden bg-white shadow-lg mt-2 p-4 rounded-lg absolute right-4 z-10">
+        <div className="lg:hidden bg-white shadow-lg mt-2 p-4 rounded-lg absolute right-4 top-16 z-50 w-60 max-h-[70vh] overflow-y-auto">
           <div className="flex flex-col space-y-2">
             {links.map((link) => (
               <button
                 key={link.name}
                 onClick={() => handleLinkClick(link.path)}
-                className="text-base p-2 rounded text-[#0A1044] hover:text-blue-800 text-center"
+                className="text-base p-2 rounded text-[#0A1044] hover:text-blue-800 text-left"
               >
                 {link.name}
               </button>
