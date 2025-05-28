@@ -1,14 +1,10 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import { User } from "../lib/types";
 import { useState } from "react";
 
-interface HeaderProps {
-  currentUser: User | null;
-}
 
-const Header: React.FC<HeaderProps> = ({ currentUser }) => {
+const Header: React.FC = () => {
   const router = useRouter();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
