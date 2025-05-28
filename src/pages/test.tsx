@@ -20,12 +20,12 @@ export default function Test() {
     {
       id: 2,
       question: "Какой тег используется для заголовка первого уровня?",
-      options: ["<p>", "<h1>", "<div>", "<span>"],
-      correctAnswer: "<h1>",
+      options: ["&lt;p&gt;", "&lt;h1&gt;", "&lt;div&gt;", "&lt;span&gt;"],
+      correctAnswer: "&lt;h1&gt;",
     },
     {
       id: 3,
-      question: "Что делает тег <br>?",
+      question: "Что делает тег &lt;br&gt;?",
       options: [
         "Создаёт таблицу",
         "Добавляет разрыв строки",
