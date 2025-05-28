@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <div className={`${geistSans.variable} ${geistMono.variable}`}>
-      <Header currentUser={null} />
+      <Header />
       <Component {...pageProps} />
     </div>
   );
