@@ -21,7 +21,6 @@ const Header: React.FC = () => {
     { name: "Обо мне", path: "/about" },
     { name: "Достижения", path: "/achievements" },
     { name: "Презентация", path: "/presentation" },
-    { name: "Проекты работы", path: "/projects" },
     { name: "Тест", path: "/test" },
     { name: "Группа Т-24", path: "/group" },
     { name: "Контакты", path: "/contact" },
